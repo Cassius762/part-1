@@ -41,8 +41,8 @@ h1{
   }
   
 
-  .Contact Form{
-    background: rgb(82, 92, 153);
+  .contact-form{
+    background: rgb(132, 142, 209);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgb(4, 7, 37);
@@ -50,15 +50,14 @@ h1{
     
     
  }
-
-.Contact Form h2{
+.contact-form h2{
     text-align: center;
     margin-bottom: 15px;
 
 
 }
 
-.Contact Form input .Contact Form textarea{
+.contact-form input, .contact-form textarea{
     width: 100%;
     padding: 8px;
     margin-top: 5px;
@@ -66,7 +65,7 @@ h1{
     border-radius: 5px;
 }
 
-.Contact Form Button{
+.contact-form Button{
     width: 100%;
     padding: 10px;
     border: none;
@@ -75,6 +74,11 @@ h1{
     cursor: pointer;
     border-radius: 5px;
 
+
+}
+
+.contact-form button:hover{
+     background-color: #3d7397;
 
 }
 
